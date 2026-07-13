@@ -1,7 +1,7 @@
 # ParTIpy: Pareto Task Inference in Python <img src="https://raw.githubusercontent.com/saezlab/ParTIpy/main/docs/_static/images/logo_blue.png?raw=true" align="right" height="125">
 <!-- badges: start -->
 [![codecov](https://codecov.io/gh/saezlab/partipy/branch/main/graph/badge.svg)](https://codecov.io/gh/saezlab/partipy)
-[![Documentation Status](https://readthedocs.org/projects/partipy/badge/?version=latest)](https://partipy.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/partipy-dev/badge/?version=latest)](https://partipy-dev.readthedocs.io/en/latest/?badge=latest)
 [![GitHub issues](https://img.shields.io/github/issues/saezlab/partipy.svg)](https://github.com/saezlab/partipy/issues/)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/saezlab/ParTIpy/main.svg)](https://results.pre-commit.ci/latest/github/saezlab/ParTIpy/main)
 <!-- badges: end -->
@@ -16,10 +16,10 @@ To infer this structure, [archetypal analysis](https://doi.org/10.48550/arXiv.25
 
 ## Documentation
 
-For detailed information and example tutorials, please refer to our [documentation](https://partipy.readthedocs.io). Key resources include:
+For detailed information and example tutorials, please refer to our [documentation](https://partipy-dev.readthedocs.io). Key resources include:
 
-- [Quickstart Vignette](https://partipy.readthedocs.io/en/latest/notebooks/quickstart.html)
-- [Archetypal Analysis Vignette](https://partipy.readthedocs.io/en/latest/notebooks/archetypal_analysis.html)
+- [Quickstart Vignette](https://partipy-dev.readthedocs.io/en/latest/notebooks/quickstart.html)
+- [Archetypal Analysis Vignette](https://partipy-dev.readthedocs.io/en/latest/notebooks/archetypal_analysis.html)
 
 For a deeper dive into the mathematical foundations of archetypal analysis and the implementation of various initialization and optimization algorithms, see the [methods section](https://github.com/saezlab/ParTIpy/blob/main/docs/methods/methods.pdf).
 
@@ -49,7 +49,7 @@ pip install git+https://github.com/saezlab/partipy.git
 
 ## Release Notes
 
-See the [changelog](https://partipy.readthedocs.io/en/latest/changelog.html).
+See the [changelog](https://partipy-dev.readthedocs.io/en/latest/changelog.html).
 
 ## Questions & Issues
 

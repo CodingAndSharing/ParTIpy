@@ -1,5 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 
+import os
 import sys
 from datetime import datetime
 from importlib.metadata import metadata
@@ -14,6 +15,10 @@ info = metadata("partipy")
 project_name = info["Name"]
 version = info["Version"]
 release = info["Version"]
+
+# Make the project name explicit for dev builds hosted on Read the Docs
+if "READTHEDOCS_PROJECT" in os.environ:
+    project = os.environ["READTHEDOCS_PROJECT"]
 urls = dict(pu.split(", ") for pu in info.get_all("Project-URL"))  # type: ignore[union-attr]
 repository_url = urls["Source"]
 author = "Philipp S.L. Schaefer, Leoni Zimmermann"
