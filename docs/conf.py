@@ -135,4 +135,5 @@ nitpick_ignore = [
     ("py:data", "partipy.schema.WEIGHT_ALGS"),
     ("py:class", "optional"),
     ("py:class", "Optional"),
+    ("py:class", "anndata._core.anndata.AnnData"),
 ]
