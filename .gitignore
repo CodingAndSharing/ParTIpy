@@ -36,3 +36,11 @@ coverage.xml
 
 # jupyter
 .ipynb_checkpoints/
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# sandbox
+sandbox
+pixi.lock
+.gitattributes
